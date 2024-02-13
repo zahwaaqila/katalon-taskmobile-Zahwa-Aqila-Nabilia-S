@@ -1,3 +1,4 @@
+
 # katalon-taskmobile-Zahwa-Aqila-Nabilia-S
 
 ```markdown
@@ -11,11 +12,10 @@ Repository ini berisi pengujian otomatis untuk aplikasi mobile menggunakan Appiu
 
 2. Siapkan Android Studio untuk emulasi perangkat Android.
 
-## Kumpulan Tes
-
+## Test Suites
 ### 1. Profile
 
-#### Kasus Uji:
+#### Test Case:
 
 - **Profile - Nama (Ubah Nama):**
   - Deskripsi: Kasus uji ini memvalidasi kemampuan untuk mengubah nama pengguna di profil.
@@ -61,5 +61,11 @@ Repository ini berisi pengujian otomatis untuk aplikasi mobile menggunakan Appiu
 4. Jalankan tes:
    - Untuk seluruh kumpulan tes: `npm test`
    - Untuk kumpulan tes tertentu: `npm test -- --suite <nama_kumpulan_tes>`
+
+## Link Video Report
+  - https://drive.google.com/drive/folders/1yguV1p_uQLWHTjib7FHJBeoPiRPCSnoZ?usp=sharing
+
+## Link Git
+  - https://github.com/zahwaaqila/katalon-taskapi-Zahwa-Aqila-Nabilia-S.git (Branch: develop)
 
 
