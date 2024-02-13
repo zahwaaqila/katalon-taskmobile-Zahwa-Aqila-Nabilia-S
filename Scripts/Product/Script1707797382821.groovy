@@ -24,8 +24,6 @@ Mobile.tap(findTestObject('Product/android.widget.TextView'), 0)
 
 Mobile.delay(2)
 
-Mobile.tap(findTestObject('Product/android.widget.EditText - Search'), 0)
-
 Mobile.setText(findTestObject('Product/android.widget.EditText - Search'), 'samsung', 0)
 
 Mobile.tap(findTestObject('Product/android.widget.TextView - Samsung Galaxy S10 - Black'), 0)
