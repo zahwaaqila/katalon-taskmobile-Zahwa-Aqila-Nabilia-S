@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Product,,,,13-02-2024 11:33:48,13-02-2024 11:35:48,2m - 0.402s,PASSED
+,,,,,,,
+Test Cases/Product,,,,13-02-2024 11:33:49,13-02-2024 11:35:48,1m - 59.684s,PASSED
+"startApplication(""C:\Users\LENOVO\Downloads\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk"", true)",,,,13-02-2024 11:33:51,13-02-2024 11:35:12,1m - 21.145s,PASSED
+"tap(findTestObject(""Product/android.widget.TextView""), 0)",,,,13-02-2024 11:35:12,13-02-2024 11:35:18,6.467s,PASSED
+delay(2),,,,13-02-2024 11:35:18,13-02-2024 11:35:20,2.167s,PASSED
+"tap(findTestObject(""Product/android.widget.EditText - Search""), 0)",,,,13-02-2024 11:35:20,13-02-2024 11:35:25,5.145s,PASSED
+"setText(findTestObject(""Product/android.widget.EditText - Search""), ""samsung"", 0)",,,,13-02-2024 11:35:25,13-02-2024 11:35:28,2.706s,PASSED
+"tap(findTestObject(""Product/android.widget.TextView - Samsung Galaxy S10 - Black""), 0)",,,,13-02-2024 11:35:28,13-02-2024 11:35:29,1.016s,PASSED
+delay(2),,,,13-02-2024 11:35:29,13-02-2024 11:35:31,2.026s,PASSED
+"tap(findTestObject(""Product/android.widget.Button - ADD TO CART""), 0)",,,,13-02-2024 11:35:31,13-02-2024 11:35:35,3.668s,PASSED
+"tap(findTestObject(""Product/android.widget.EditText""), 0)",,,,13-02-2024 11:35:35,13-02-2024 11:35:36,1.624s,PASSED
+"setText(findTestObject(""Product/android.widget.EditText""), ""5"", 0)",,,,13-02-2024 11:35:36,13-02-2024 11:35:39,2.606s,PASSED
+"tap(findTestObject(""Product/android.widget.Button - ADD""), 0)",,,,13-02-2024 11:35:39,13-02-2024 11:35:40,0.828s,PASSED
+delay(2),,,,13-02-2024 11:35:40,13-02-2024 11:35:42,2.016s,PASSED
+closeApplication(),,,,13-02-2024 11:35:42,13-02-2024 11:35:46,4.309s,PASSED
+Video,,,,13-02-2024 11:35:48,13-02-2024 11:35:48,0.002s,PASSED

@@ -1,0 +1,52 @@
+1
+00:00:00,902 --> 00:01:22,030
+1. startApplication("C:\Users\LENOVO\Downloads\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk", true)
+
+2
+00:01:22,073 --> 00:01:28,541
+5. tap(findTestObject("Product/android.widget.TextView"), 0)
+
+3
+00:01:28,543 --> 00:01:30,705
+9. delay(2)
+
+4
+00:01:30,712 --> 00:01:35,854
+13. tap(findTestObject("Product/android.widget.EditText - Search"), 0)
+
+5
+00:01:35,857 --> 00:01:38,564
+17. setText(findTestObject("Product/android.widget.EditText - Search"), "samsung", 0)
+
+6
+00:01:38,566 --> 00:01:39,580
+21. tap(findTestObject("Product/android.widget.TextView - Samsung Galaxy S10 - Black"), 0)
+
+7
+00:01:39,582 --> 00:01:41,606
+25. delay(2)
+
+8
+00:01:41,608 --> 00:01:45,276
+29. tap(findTestObject("Product/android.widget.Button - ADD TO CART"), 0)
+
+9
+00:01:45,278 --> 00:01:46,900
+33. tap(findTestObject("Product/android.widget.EditText"), 0)
+
+10
+00:01:46,904 --> 00:01:49,505
+37. setText(findTestObject("Product/android.widget.EditText"), "5", 0)
+
+11
+00:01:49,508 --> 00:01:50,337
+41. tap(findTestObject("Product/android.widget.Button - ADD"), 0)
+
+12
+00:01:50,339 --> 00:01:52,353
+45. delay(2)
+
+13
+00:01:52,355 --> 00:01:56,670
+49. closeApplication()
+

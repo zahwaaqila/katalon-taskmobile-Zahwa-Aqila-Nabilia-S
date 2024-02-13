@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Profile,,,,13-02-2024 11:36:03,13-02-2024 11:38:31,2m - 28.222s,PASSED
+,,,,,,,
+Test Cases/Profile - Nama,,,,13-02-2024 11:36:03,13-02-2024 11:37:18,1m - 14.398s,PASSED
+"startApplication(""C:\Users\LENOVO\Downloads\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk"", true)",,,,13-02-2024 11:36:04,13-02-2024 11:36:54,49.685s,PASSED
+delay(2),,,,13-02-2024 11:36:54,13-02-2024 11:36:56,2.115s,PASSED
+"tap(findTestObject(""ProfileEdited - Nama/android.widget.TextView - Profile""), 0)",,,,13-02-2024 11:36:56,13-02-2024 11:36:58,1.688s,PASSED
+"tap(findTestObject(""ProfileEdited - Nama/android.widget.TextView - EDIT""), 0)",,,,13-02-2024 11:36:58,13-02-2024 11:36:59,1.359s,PASSED
+delay(2),,,,13-02-2024 11:36:59,13-02-2024 11:37:01,2.015s,PASSED
+"tap(findTestObject(""ProfileEdited - Nama/android.widget.TextView - Your Name""), 0)",,,,13-02-2024 11:37:01,13-02-2024 11:37:03,2.084s,PASSED
+"setText(findTestObject(""ProfileEdited - Nama/android.widget.EditText - Your Name""), ""Kilakilu"", 0)",,,,13-02-2024 11:37:03,13-02-2024 11:37:06,2.313s,PASSED
+delay(2),,,,13-02-2024 11:37:06,13-02-2024 11:37:08,2.016s,PASSED
+"tap(findTestObject(""ProfileEdited - Nama/android.widget.Button - OK""), 0)",,,,13-02-2024 11:37:08,13-02-2024 11:37:08,0.654s,PASSED
+delay(2),,,,13-02-2024 11:37:08,13-02-2024 11:37:10,2.014s,PASSED
+closeApplication(),,,,13-02-2024 11:37:10,13-02-2024 11:37:16,5.389s,PASSED
+Video,,,,13-02-2024 11:37:18,13-02-2024 11:37:18,0.001s,PASSED
+,,,,,,,
+Test Cases/Profile - Email,,,,13-02-2024 11:37:18,13-02-2024 11:38:31,1m - 13.434s,PASSED
+"startApplication(""C:\Users\LENOVO\Downloads\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk"", true)",,,,13-02-2024 11:37:18,13-02-2024 11:38:02,43.802s,PASSED
+"tap(findTestObject(""ProfileEdited - Email/android.widget.TextView - Profile""), 0)",,,,13-02-2024 11:38:02,13-02-2024 11:38:08,5.936s,PASSED
+"tap(findTestObject(""ProfileEdited - Email/android.widget.TextView - EDIT""), 0)",,,,13-02-2024 11:38:08,13-02-2024 11:38:10,2.567s,PASSED
+delay(2),,,,13-02-2024 11:38:10,13-02-2024 11:38:12,2.027s,PASSED
+"tap(findTestObject(""ProfileEdited - Email/android.widget.TextView - your.emailgmail.com""), 0)",,,,13-02-2024 11:38:12,13-02-2024 11:38:13,0.779s,PASSED
+delay(2),,,,13-02-2024 11:38:13,13-02-2024 11:38:15,2.020s,PASSED
+"setText(findTestObject(""ProfileEdited - Email/android.widget.EditText - your.emailgmail.com""), ""Kilakilu@gmail.com"", 0)",,,,13-02-2024 11:38:15,13-02-2024 11:38:19,4.087s,PASSED
+"tap(findTestObject(""ProfileEdited - Email/android.widget.Button - OK""), 0)",,,,13-02-2024 11:38:19,13-02-2024 11:38:20,1.232s,PASSED
+delay(2),,,,13-02-2024 11:38:20,13-02-2024 11:38:22,2.012s,PASSED
+closeApplication(),,,,13-02-2024 11:38:22,13-02-2024 11:38:29,6.607s,PASSED
+Video,,,,13-02-2024 11:38:31,13-02-2024 11:38:31,0.003s,PASSED

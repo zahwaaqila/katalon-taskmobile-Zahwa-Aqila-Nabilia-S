@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Product" time="120.402" tests="1" failures="0" errors="0">
+   <testsuite name="Product" tests="1" failures="0" errors="0" time="120.402" skipped="0" timestamp="13-02-2024T11:33:48" hostname="LENOVO - DESKTOP-SKHBD1C" id="Test Suites/Product">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (Android SDK built for x86 - Android 7.0)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\LENOVO\\git\\katalon-taskmobile-Zahwa-Aqila-Nabilia-S\\Reports\\20240213_113326\\Product\\20240213_113328"/>
+         <property name="logFiles" value="C:\\Users\\LENOVO\\git\\katalon-taskmobile-Zahwa-Aqila-Nabilia-S\\Reports\\20240213_113326\\Product\\20240213_113328\\appium.log, C:\\Users\\LENOVO\\git\\katalon-taskmobile-Zahwa-Aqila-Nabilia-S\\Reports\\20240213_113326\\Product\\20240213_113328\\appium_error.log, C:\\Users\\LENOVO\\git\\katalon-taskmobile-Zahwa-Aqila-Nabilia-S\\Reports\\20240213_113326\\Product\\20240213_113328\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="LENOVO - DESKTOP-SKHBD1C"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;ready&quot;:true,&quot;message&quot;:&quot;The server is ready to accept new connections&quot;,&quot;build&quot;:{&quot;version&quot;:&quot;2.5.0&quot;}}}"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="2.5.0"/>
+         <property name="deviceModel" value="Android SDK built for x86"/>
+         <property name="hostAddress" value="172.16.38.210"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (Android SDK built for x86 - Android 7.0)"/>
+         <property name="deviceOSVersion" value="7.0"/>
+      </properties>
+      <testcase name="Test Cases/Product" time="119.684" classname="Test Cases/Product" status="PASSED">
+         <system-out><![CDATA[13-02-2024T11:33:49 - [TEST_CASE][PASSED] - Test Cases/Product: Test Cases/Product
+
+13-02-2024T11:33:51 - [TEST_STEP][PASSED] - startApplication("C:\Users\LENOVO\Downloads\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk", true): Started app at: 'C:\Users\LENOVO\Downloads\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk'
+
+13-02-2024T11:33:53 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+13-02-2024T11:33:58 - [MESSAGE][INFO] - PATH: C:\Program Files\nodejs;
+
+13-02-2024T11:33:58 - [MESSAGE][INFO] - APPIUM_HOME: C:\Users\LENOVO\.appium
+
+13-02-2024T11:33:58 - [MESSAGE][INFO] - appium outlog: C:\Users\LENOVO\git\katalon-taskmobile-Zahwa-Aqila-Nabilia-S\Reports\20240213_113326\Product\20240213_113328\appium.log
+
+13-02-2024T11:33:58 - [MESSAGE][INFO] - appium errlog: C:\Users\LENOVO\git\katalon-taskmobile-Zahwa-Aqila-Nabilia-S\Reports\20240213_113326\Product\20240213_113328\appium_error.log
+
+13-02-2024T11:34:24 - [MESSAGE][INFO] - Appium server started on port 52,958
+
+13-02-2024T11:35:12 - [MESSAGE][PASSED] - Started app at: 'C:\Users\LENOVO\Downloads\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk'
+
+13-02-2024T11:35:12 - [TEST_STEP][PASSED] - tap(findTestObject("Product/android.widget.TextView"), 0): Tapped on element 'Object Repository/Product/android.widget.TextView'
+
+13-02-2024T11:35:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:35:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Product/android.widget.TextView'
+
+13-02-2024T11:35:18 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+13-02-2024T11:35:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+13-02-2024T11:35:20 - [TEST_STEP][PASSED] - tap(findTestObject("Product/android.widget.EditText - Search"), 0): Tapped on element 'Object Repository/Product/android.widget.EditText - Search'
+
+13-02-2024T11:35:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:35:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Product/android.widget.EditText - Search'
+
+13-02-2024T11:35:25 - [TEST_STEP][PASSED] - setText(findTestObject("Product/android.widget.EditText - Search"), "samsung", 0): Text 'samsung' has been set to element 'Object Repository/Product/android.widget.EditText - Search'
+
+13-02-2024T11:35:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:35:28 - [MESSAGE][PASSED] - Text 'samsung' has been set to element 'Object Repository/Product/android.widget.EditText - Search'
+
+13-02-2024T11:35:28 - [TEST_STEP][PASSED] - tap(findTestObject("Product/android.widget.TextView - Samsung Galaxy S10 - Black"), 0): Tapped on element 'Object Repository/Product/android.widget.TextView - Samsung Galaxy S10 - Black'
+
+13-02-2024T11:35:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:35:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Product/android.widget.TextView - Samsung Galaxy S10 - Black'
+
+13-02-2024T11:35:29 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+13-02-2024T11:35:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+13-02-2024T11:35:31 - [TEST_STEP][PASSED] - tap(findTestObject("Product/android.widget.Button - ADD TO CART"), 0): Tapped on element 'Object Repository/Product/android.widget.Button - ADD TO CART'
+
+13-02-2024T11:35:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:35:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Product/android.widget.Button - ADD TO CART'
+
+13-02-2024T11:35:35 - [TEST_STEP][PASSED] - tap(findTestObject("Product/android.widget.EditText"), 0): Tapped on element 'Object Repository/Product/android.widget.EditText'
+
+13-02-2024T11:35:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:35:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Product/android.widget.EditText'
+
+13-02-2024T11:35:36 - [TEST_STEP][PASSED] - setText(findTestObject("Product/android.widget.EditText"), "5", 0): Text '5' has been set to element 'Object Repository/Product/android.widget.EditText'
+
+13-02-2024T11:35:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:35:39 - [MESSAGE][PASSED] - Text '5' has been set to element 'Object Repository/Product/android.widget.EditText'
+
+13-02-2024T11:35:39 - [TEST_STEP][PASSED] - tap(findTestObject("Product/android.widget.Button - ADD"), 0): Tapped on element 'Object Repository/Product/android.widget.Button - ADD'
+
+13-02-2024T11:35:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:35:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Product/android.widget.Button - ADD'
+
+13-02-2024T11:35:40 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+13-02-2024T11:35:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+13-02-2024T11:35:42 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+13-02-2024T11:35:46 - [MESSAGE][PASSED] - Close app successfully
+
+13-02-2024T11:35:48 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Product' .
+
+13-02-2024T11:35:48 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Product' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[13-02-2024T11:33:48 - [TEST_SUITE][PASSED] - Product: Test Cases/Product]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

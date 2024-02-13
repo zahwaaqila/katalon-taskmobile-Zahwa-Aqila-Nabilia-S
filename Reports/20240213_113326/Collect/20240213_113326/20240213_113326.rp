@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TestSuiteCollectionEntity>
+<ReportCollectionEntity>
    <description></description>
-   <name>Collect</name>
+   <name>20240213_113326</name>
    <tag></tag>
-   <delayBetweenInstances>0</delayBetweenInstances>
-   <executionMode>SEQUENTIAL</executionMode>
-   <maxConcurrentInstances>8</maxConcurrentInstances>
-   <testSuiteRunConfigurations>
-      <TestSuiteRunConfiguration>
-         <configuration>
+   <displayName>20240213_113326</displayName>
+   <reportItemDescriptions>
+      <ReportItemDescription>
+         <reportLocation>Reports/20240213_113326/Product/20240213_113328</reportLocation>
+         <runConfigDescription>
             <groupName>Mobile</groupName>
             <profileName>default</profileName>
             <requireConfigurationData>true</requireConfigurationData>
@@ -23,12 +22,12 @@
                </entry>
             </runConfigurationData>
             <runConfigurationId>Android</runConfigurationId>
-         </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Product</testSuiteEntity>
-      </TestSuiteRunConfiguration>
-      <TestSuiteRunConfiguration>
-         <configuration>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20240213_113326/Profile/20240213_113331</reportLocation>
+         <runConfigDescription>
             <groupName>Mobile</groupName>
             <profileName>default</profileName>
             <requireConfigurationData>true</requireConfigurationData>
@@ -43,9 +42,9 @@
                </entry>
             </runConfigurationData>
             <runConfigurationId>Android</runConfigurationId>
-         </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Profile</testSuiteEntity>
-      </TestSuiteRunConfiguration>
-   </testSuiteRunConfigurations>
-</TestSuiteCollectionEntity>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+   </reportItemDescriptions>
+   <testSuiteCollectionId>Test Suites/Collect</testSuiteCollectionId>
+</ReportCollectionEntity>

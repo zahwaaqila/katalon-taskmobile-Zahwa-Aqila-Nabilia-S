@@ -1,0 +1,44 @@
+1
+00:00:00,533 --> 00:00:50,220
+1. startApplication("C:\Users\LENOVO\Downloads\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk", true)
+
+2
+00:00:50,240 --> 00:00:52,356
+5. delay(2)
+
+3
+00:00:52,358 --> 00:00:54,046
+9. tap(findTestObject("ProfileEdited - Nama/android.widget.TextView - Profile"), 0)
+
+4
+00:00:54,048 --> 00:00:55,405
+13. tap(findTestObject("ProfileEdited - Nama/android.widget.TextView - EDIT"), 0)
+
+5
+00:00:55,408 --> 00:00:57,423
+17. delay(2)
+
+6
+00:00:57,426 --> 00:00:59,507
+21. tap(findTestObject("ProfileEdited - Nama/android.widget.TextView - Your Name"), 0)
+
+7
+00:00:59,509 --> 00:01:01,821
+25. setText(findTestObject("ProfileEdited - Nama/android.widget.EditText - Your Name"), "Kilakilu", 0)
+
+8
+00:01:01,823 --> 00:01:03,835
+29. delay(2)
+
+9
+00:01:03,839 --> 00:01:04,491
+33. tap(findTestObject("ProfileEdited - Nama/android.widget.Button - OK"), 0)
+
+10
+00:01:04,494 --> 00:01:06,505
+37. delay(2)
+
+11
+00:01:06,507 --> 00:01:11,902
+41. closeApplication()
+
